@@ -1,3 +1,4 @@
 node_modules
 backend/vendor
 backend/static
+.DS_STORE
