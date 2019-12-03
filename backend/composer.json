@@ -1,0 +1,6 @@
+{
+    "require": {
+        "nexmo/client": "^1.8",
+        "opentok/opentok": "^4.4"
+    }
+}
