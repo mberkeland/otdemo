@@ -18,9 +18,9 @@ export default {
       msg: "OPENTOK DEMO",
       tab: 1,
       nexmo: {
-        phone: "14083753079",
+        phone: "1408xxxxxxx",
         region: "US",
-        tokbox_key: "46365762",
+        tokbox_key: "xxxxxxx",
       },
       demoItem: {},
       isLoading: false,

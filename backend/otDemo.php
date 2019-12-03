@@ -13,11 +13,15 @@ $requestMethod = $_SERVER["REQUEST_METHOD"];
 if ($requestMethod == 'OPTIONS') {
     exit();
 }
-$key='128b125f';
-$secret='wkC7uHjnrCHg0ZVo';
-$from='14155493399';
-$tokbox_key='46365762';
-$tokbox_secret='549c08355445aba087bcca98a02a82d74a530cee';
+
+////////////////////// REPLACE THESE VALUES //////////////////
+$key='xxxxxx';  //Nexmo Key
+$secret='xxxxxxx';  // Nexmo secret
+$from='1415xxxxxxxx'; // Nexmo LVN Phone Number
+$tokbox_key='xxxxxx'; // TokBox Key
+$tokbox_secret='xxxxxxxxxxxxxxxxx';  // TokBox Secret
+//////////////////////////////////////////////////////////////
+
 $id=1;
 
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
